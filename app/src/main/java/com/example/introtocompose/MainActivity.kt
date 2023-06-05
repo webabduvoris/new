@@ -62,8 +62,14 @@ fun MyApp() {
             }
             if (moneyCounterItem.value > 30) {
                 Spacer(modifier = Modifier.height(30.dp))
-                Text("Lots of money", style = TextStyle(color = Color.Gray))
+                Text(
+                    "Lots of money", style = TextStyle(
+                        color = Color.Gray,
+                    )
+                )
             }
+
+
         }
     }
 }
